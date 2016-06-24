@@ -31,7 +31,7 @@ int main()
 	RNG a(initState);
 
         cout << "----------------" << endl;
-	for(unsigned int i = 0;i < 10;i++)
+	for(unsigned int i = 0;i < 20;i++)
 	{
 		unsigned short temp;
 		while(temp = (unsigned short)a, 9999 < temp);
